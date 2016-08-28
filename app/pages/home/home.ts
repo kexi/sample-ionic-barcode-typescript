@@ -8,4 +8,8 @@ export class HomePage {
   constructor(private navCtrl: NavController) {
   
   }
+  
+  public getBarcode(): void {
+    console.log('hello');
+  }
 }
